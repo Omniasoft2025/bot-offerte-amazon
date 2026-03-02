@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["python", "amazon_bot_railway.py"]
+CMD ["python", "botofficinainformatica.py"]
