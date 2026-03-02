@@ -10,7 +10,7 @@ from telegram.constants import ParseMode
 # ================================================================
 # CONFIGURAZIONE
 # ================================================================
-TOKEN_BOT      = os.environ.get("TOKEN_BOT", "8775548158:AAFPv5SviG1OXzu9u7iFNu58q_H8Fw2hFxI
+TOKEN_BOT      = os.environ.get("TOKEN_BOT", "8775548158:AAFPv5SviG1OXzu9u7iFNu58q_H8Fw2hFxI")
 ")
 ID_CANALE      = int(os.environ.get("ID_CANALE", "-1003504366148  "))
 TUO_TAG_AMAZON = os.environ.get("TAG_AMAZON", "officina26-21")
@@ -263,3 +263,4 @@ async def loop():
 
 if __name__ == "__main__":
     asyncio.run(loop())
+
